@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.lozung1{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.conteiner1{
+ float: left;
+ margin-left: 145px;
+ height: 592px;
+ width: 800px;
+ background-color: #F5F5F5;
+}
+.photo1{
+	float: right;
+	margin-right: 144px;
+	    display: inline-block; 
+    overflow: hidden; 
+
+}
+.dd{
+	display: flex;
+	justify-content: space-evenly;
+}
+.content h3{
+	display: flex;
+	justify-content: center;
+	margin-top: 30%;
+}
+.content button{
+	display: flex;
+	margin-left: 45%;
+	margin-top: 5%;
+	width: 80px;
+	height: 35px;
+	background-color:#000 ;
+	border-radius: 20px;
+}
+.scale {
+		float: right;
+	margin-right: 144px;
+    display: inline-block; 
+    overflow: hidden; 
+   }
+   .photo1 img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .photo1 img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+   .dd1{
+   	margin-top: 100px;
+   }
+   .photo2{
+ float: left;
+ margin-left: 138px;
+     display: inline-block; 
+    overflow: hidden; 
+}
+.conteiner2{
+	float: right;
+	margin-right: 142px;
+	 height: 592px;
+ width: 800px;
+ background-color: #F5F5F5;
+}
+.content2 h3{
+	display: flex;
+	justify-content: center;
+	margin-top: 30%;
+}
+.content2 button{
+	display: flex;
+	margin-left: 45%;
+	margin-top: 5%;
+	width: 80px;
+	height: 35px;
+	background-color:#D2691E ;
+	border-radius: 20px;
+}
+.photo2 img {
+    transition: 1s;
+    display: block;
+   }
+   .photo2 img:hover {
+    transform: scale(1.2);
+   }
+.dd2{
+	margin-top: 200px;
+display: flex;
+justify-content: space-evenly;
+}
+footer {
+	margin-top: 750px;
+   padding: 30px 0;
+   background: #3C3D41;
+   color: white;
+}
+.footer-col {
+   width: 33.3333333333%;
+   float: left;
+}
+.footer-col a {
+   color: white;
+}
+.footer-col:last-child {
+   text-align: right;
+}
